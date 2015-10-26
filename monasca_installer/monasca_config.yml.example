@@ -93,7 +93,7 @@ all_config:
 
   monasca_api_host: mon-ae1test-monasca01.useast.hpcloud.net
   # Load balanced VIP for monasca_api URL (use 'https' if SSL is enabled)
-  monasca_api_url: http://{{monasca_api_host}}:8080/v2.0
+  monasca_api_url: http://{{monasca_api_host}}:8070/v2.0
 
   # if using hlinux use:
   # percona_package: percona-xtradb-cluster-server-5.5
